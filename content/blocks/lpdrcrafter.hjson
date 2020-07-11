@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: LPDR Crafter
+description: A crafter that makes an inactive Little Pink Death Reaper.
+liquidCapacity: 100
+itemCapacity: 5
+outputItem: lpdrinactive/1
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+baseExplosiveness: 70
+craftTime: 700
+consumes: {
+	power: 550
+	items: {
+		items: [
+			glithiumpowder/5
+			thorium/2
+			surge-alloy/1
+			bottledglithium/1
+		]
+	}
+	liquid: {
+		liquid: glithium
+		amount: 1
+	}
+}
+requirements: [
+	titanium/850
+	copper/920
+	plastanium/60
+]
+category: crafting
+research: glithiumcentrifuge
+idleSound: respawning
+idleSoundVolume: 0.5

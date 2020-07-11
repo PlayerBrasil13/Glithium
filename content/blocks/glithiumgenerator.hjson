@@ -1,0 +1,22 @@
+type: GenericSmelter
+name: Glithium Generator
+description: Somehow, uses power to create glithium.
+liquidCapacity: 50
+outputLiquid: glithium/10
+craftTime: 50
+size: 6
+hasPower: true
+hasLiquids: true
+flameColor: ffff00
+consumes: {
+	power: 10.0
+}
+requirements: [
+	copper/560
+	plastanium/980
+	silicon/40
+]
+category: production
+research: plastanium-compressor
+idleSound: zap
+idleSoundVolume: 0.1

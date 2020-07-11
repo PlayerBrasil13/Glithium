@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Glithium Bottler
+description: Creates a bottle, then puts the glithium in it.
+liquidCapacity: 50
+outputItem: bottledglithium/1
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: magmasmoke
+flameColor: 0000ff
+consumes: {
+	power: 5.0
+	items: {
+		items: [
+			metaglass/2
+		]
+	}
+	liquid: {
+		liquid: glithium
+		amount: 3.0
+	}
+}
+requirements: [
+	copper/80
+	titanium/10
+	plastanium/10
+]
+category: crafting
+research: glithiumgenerator
+idleSound: flame
+idleSoundVolume: 0.5

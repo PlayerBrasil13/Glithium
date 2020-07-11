@@ -13,11 +13,11 @@ ammo: {
 	lpdrinactive: {
 		type: MissileBulletType
 		despawnEffect: overdriveWave
-		lifetime: 850000.0
-		speed: 1.0
+		lifetime: 8500.0
+		speed: 100.0
 		damage: 520000000
-		bulletWidth: 1
-		bulletHeight: 1
+		bulletWidth: 10
+		bulletHeight: 10
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1

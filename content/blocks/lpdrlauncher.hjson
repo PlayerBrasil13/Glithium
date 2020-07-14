@@ -4,7 +4,7 @@ description: A turret that shots LPDRs.
 health: 5000
 size: 2
 reload: 1200
-range: 70000
+range: 8000
 ammoUseEffect: none
 inaccuracy: 0
 recoil: 0
@@ -13,8 +13,8 @@ ammo: {
 	lpdrinactive: {
 		type: MissileBulletType
 		despawnEffect: overdriveWave
-		lifetime: 850000.0
-		speed: 100.0
+		lifetime: 160
+		speed: 50
 		damage: 520000000
 		bulletWidth: 10
 		bulletHeight: 10

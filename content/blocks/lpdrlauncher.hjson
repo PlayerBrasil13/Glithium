@@ -6,13 +6,14 @@ size: 2
 reload: 1200
 range: 1000
 ammoUseEffect: none
+shootSound: thruster
 inaccuracy: 0
 recoil: 0
 rotatespeed: 50
 ammo: {
 	lpdrinactive: {
 		type: BasicBulletType
-		bulletSprite: glithium-mod-glithiumbullet
+		bulletSprite: glithium-mod-lpdrinactive
 		frontColor: ff00ff
 		backColor: ffffff
 		despawnEffect: overdriveWave

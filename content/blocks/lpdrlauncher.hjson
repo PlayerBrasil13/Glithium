@@ -15,7 +15,7 @@ ammo: {
 		despawnEffect: overdriveWave
 		lifetime: 160
 		speed: 50
-		damage: 520000000
+		damage: 5200
 		bulletWidth: 10
 		bulletHeight: 10
 		shootEffect: lancerLaserShoot

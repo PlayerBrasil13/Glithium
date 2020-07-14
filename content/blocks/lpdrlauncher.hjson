@@ -4,20 +4,23 @@ description: A turret that shots LPDRs.
 health: 5000
 size: 2
 reload: 1200
-range: 8000
+range: 1000
 ammoUseEffect: none
 inaccuracy: 0
 recoil: 0
 rotatespeed: 50
 ammo: {
 	lpdrinactive: {
-		type: MissileBulletType
+		type: BasicBulletType
+		bulletSprite: glithium-mod-glithiumbullet
+		frontColor: ff00ff
+		backColor: ffffff
 		despawnEffect: overdriveWave
-		lifetime: 160
-		speed: 50
-		damage: 520000000
-		bulletWidth: 10
-		bulletHeight: 10
+		lifetime: 80.0
+		speed: 10.0
+		damage: 1200000
+		bulletWidth: 4
+		bulletHeight: 8
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1

@@ -14,17 +14,34 @@ ammo: {
 	lpdrinactive: {
 		type: BasicBulletType
 		bulletSprite: glithium-mod-lpdrinactive
+		bulletShrink: 0
 		frontColor: ff00ff
 		backColor: ffffff
 		despawnEffect: overdriveWave
-		lifetime: 80.0
-		speed: 10.0
+		lifetime: 200.0
+		speed: 5.0
 		damage: 1200000
 		bulletWidth: 16
 		bulletHeight: 16
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
+	    fragBullets: 8
+		fragBullet: {
+			type: BasicBulletType
+			bulletSprite: glithium-mod-glithiumbullet
+			frontColor: ff00ff
+			backColor: ffffff
+			despawnEffect: overdriveWave
+			lifetime: 80.0
+			speed: 10.0
+			damage: 1200
+			bulletWidth: 4
+			bulletHeight: 8
+			shootEffect: lancerLaserShoot
+			smokeEffect: lancerLaserShootSmoke
+			ammoMultiplier: 1
+		}
 	}
 }
 requirements: [

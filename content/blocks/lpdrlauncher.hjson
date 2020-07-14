@@ -20,8 +20,8 @@ ammo: {
 		lifetime: 80.0
 		speed: 10.0
 		damage: 1200000
-		bulletWidth: 4
-		bulletHeight: 8
+		bulletWidth: 16
+		bulletHeight: 16
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
